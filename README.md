@@ -13,3 +13,8 @@ helm repo add aitrain-helm3 https://kaixiangc.github.io/aitrain-helm3/
 ```
 helm install my-aitrain aitrain-helm3/aitrain --version 0.1.0
 ```
+### Uninstall Chart
+To uninstall the `my-aitrain` deployment run:
+```
+helm uninstall my-aitrain
+```
