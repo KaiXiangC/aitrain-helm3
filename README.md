@@ -20,7 +20,14 @@ helm uninstall my-aitrain
 ```
 ## Configuration
 ```
-helm install my-aitrain \
---set NS_PREFIX=aitrain \
-aitrain-helm3/aitrain
+helm install my-aitrain --set [Parameters]=[Value] aitrain-helm3/aitrain
 ```
+## Parameters
+| Key | Description | Default |
+| --- | --- | --- |
+| NS_PREFIX | Name Space Prefix | `aitrain` |
+| VERSION | Version Type [ v2021-12 , v2022-07 ] | `v2022-07` |
+| OAUTH_TYPE | OAuth Provider Type [ go-oauth , google-oauth , github-oauth ] | `go-oauth` |
+| DOAMINNAME | URL Domian | `nchc.org.tw` |
+| EXISTING_SC_NAME | Storage Class Name | `standard` |
+| INGRESS_CLASS | Ingress Class Name | `nginx` |
