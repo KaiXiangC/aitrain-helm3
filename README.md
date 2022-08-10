@@ -5,3 +5,11 @@
 <div class="artifacthub-widget" data-url="https://artifacthub.io/packages/helm/aitrain-helm3/aitrain" data-theme="light" data-header="true" data-stars="true" data-responsive="false"><blockquote><p lang="en" dir="ltr"><b>aitrain</b>: A Helm3 chart for Kubernetes</p>&mdash; Open in <a href="https://artifacthub.io/packages/helm/aitrain-helm3/aitrain">Artifact Hub</a></blockquote></div>
 
 ## Getting started
+### Add repository
+```
+helm repo add aitrain-helm3 https://kaixiangc.github.io/aitrain-helm3/
+```
+### Install Chart
+```
+helm install my-aitrain aitrain-helm3/aitrain --version 0.1.0
+```
