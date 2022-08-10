@@ -18,3 +18,9 @@ To uninstall the `my-aitrain` deployment run:
 ```
 helm uninstall my-aitrain
 ```
+## Configuration
+```
+helm install my-aitrain \
+--set NS_PREFIX=aitrain \
+aitrain-helm3/aitrain
+```
