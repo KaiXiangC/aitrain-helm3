@@ -3,12 +3,12 @@ entries:
   aitrain:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-10T08:11:23.515743306Z"
-    description: A Helm chart for Kubernetes
-    digest: ec6eaad09c82a19b395549d7f6a92e4df7f7e966eecc115d0b2b85e72b48d900
+    created: "2022-08-11T01:56:12.963008442Z"
+    description: A Helm chart for deployment and management of Kubernetes in clusters
+    digest: ba8868ea0ad43de4712c4d6366941df707309a0f3ce853cf1e9a2b3e2966771d
     name: aitrain
     type: application
     urls:
     - aitrain-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-10T08:11:23.506440529Z"
+generated: "2022-08-11T01:56:12.956229515Z"
